@@ -9,7 +9,7 @@ def jogar_foca():
     acertou = False
 
     while (not acertou and not enforcou):
-        chute = input("Digite seu chute!: ")
+        chute = input("Digite seu chute! ")
         chute = chute.strip()
         index = 0
         for letra in palavra_secreta:
