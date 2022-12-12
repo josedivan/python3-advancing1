@@ -1,12 +1,7 @@
-import random
+frutas = ['Banana', 'Morango', 'Maçã', 'Uva']
 
-sorteado = random.randrange(0, 4)
-
-print(sorteado)
-
-if sorteado == 1:
-    print("Paulo")
-elif sorteado == 2:
-    print("Juliana")
+fruta_buscada = 'Melancia'
+if fruta_buscada in frutas:
+    print(frutas.index(fruta_buscada))
 else:
-    print("Tamires")
+    print('Desculpe, a {} não está na lista frutas'.format(fruta_buscada))
