@@ -1,7 +1,8 @@
-frutas = ['Banana', 'Morango', 'Maçã', 'Uva']
+frutas = ["maçã", "banana", "laranja", "melancia"]
+lista = [fruta.upper() for fruta in frutas]
 
-fruta_buscada = 'Melancia'
-if fruta_buscada in frutas:
-    print(frutas.index(fruta_buscada))
-else:
-    print('Desculpe, a {} não está na lista frutas'.format(fruta_buscada))
+
+inteiros = [1, 3, 4, 5, 7, 8, 9]
+
+pares = [x for x in inteiros if x % 2 == 0]
+print(pares)
