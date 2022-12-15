@@ -2,9 +2,8 @@ import random
 
 
 def jogar_foca():
-    print("*********************************")
-    print("***Bem vindo ao jogo da Forca!***")
-    print("*********************************")
+
+    imprime_abetura_jogo()
 
     arquivo = open("palavras.txt", "r")
     palavras = []
@@ -47,6 +46,12 @@ def jogar_foca():
         print("Você errou!")
 
     print("Fim de jogo!")
+
+
+def imprime_abetura_jogo():
+    print("*********************************")
+    print("***Bem vindo ao jogo da Forca!***")
+    print("*********************************")
 
 
 if (__name__ == "__main__"):
